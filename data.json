@@ -1,0 +1,155 @@
+{
+    "articles" : [
+        {
+            "id":1,
+            "name": "Pomme", 
+            "quantity":20,
+            "livraison":true, 
+            "categorie":"fruit&legume",
+            "sous-categorie": null,
+            "prix":1,
+            "promo": false
+        },
+        {
+            "id": 2,
+            "name": "Poire",
+            "quantity":20,
+            "livraison":true,
+            "categorie": "fruit&legume",
+            "sous-categorie": null,
+            "prix":1,
+            "promo": true
+        },
+        {
+            "id": 3,
+            "name": "Concombre",
+            "quantity":15,
+            "livraison":false,
+            "categorie": "fruit&legume",
+            "sous-categorie": null,
+            "prix":5,
+            "promo": false
+        },
+        {
+            "id": 4,
+            "name": "Choux blanc",
+            "quantity":10,
+            "livraison":false,
+            "categorie": "fruit&legume",
+            "sous-categorie": null,
+            "prix":6,
+            "promo": false
+        },
+        {
+            "id": 4,
+            "name": "Bière blanche",
+            "quantity":50,
+            "livraison":true,
+            "categorie": "boissons",
+            "sous-categorie": "boissons alcoolisees",
+            "prix":0.5,
+            "promo": true
+        },
+        {
+            "id": 5,
+            "name": "Rhum",
+            "quantity":12,
+            "livraison":true,
+            "categorie": "boissons",
+            "sous-categorie":"boissons alcoolisees",
+            "prix":4,
+            "promo": false
+        },
+        {
+            "id": 6,
+            "name": "Jus de Pomme",
+            "quantity":20,
+            "livraison":true,
+            "categorie": "boissons",
+            "sous-categorie":"jus",
+            "prix":10,
+            "promo": false
+        },
+        {
+            "id": 7,
+            "name": "Jus de Pamplemousse",
+            "quantity":18,
+            "livraison":false,
+            "categorie": "boissons",
+            "sous-categorie":"jus",
+            "prix":1,
+            "promo": true
+        },
+        {
+            "id": 8,
+            "name": "Monster Energy",
+            "quantity":13,
+            "livraison":true,
+            "categorie": "boissons",
+            "sous-categorie":"boissons energisantes",
+            "prix":1,
+            "promo": true
+        },
+        {
+            "id": 9,
+            "name": "Boulettes de boeufs",
+            "quantity":40,
+            "livraison":false,
+            "categorie": "viandes",
+            "sous-categorie": null,
+            "prix":12,
+            "promo": false
+        },
+        {
+            "id": 10,
+            "name": "Ribs de porc",
+            "quantity":40,
+            "livraison":false,
+            "categorie": "viandes",
+            "sous-categorie": null,
+            "prix":10,
+            "promo": false
+        },
+        {
+            "id": 11,
+            "name": "Blé",
+            "quantity":12,
+            "livraison":true,
+            "categorie": "cereales",
+            "sous-categorie": null,
+            "prix":1,
+            "promo": false
+        },
+        {
+            "id": 12,
+            "name": "Avoine",
+            "quantity":8,
+            "livraison":true,
+            "categorie": "cereales",
+            "sous-categorie": null,
+            "prix":1,
+            "promo": false
+        },
+        {
+            "id": 13,
+            "name": "Yop fraise",
+            "quantity":5,
+            "livraison":false,
+            "categorie": "frais",
+            "sous-categorie": null,
+            "prix":4,
+            "promo": false
+        },
+        {
+            "id": 14,
+            "name": "Brie de Meaux",
+            "quantity":6,
+            "livraison":false,
+            "categorie": "frais",
+            "sous-categorie": null,
+            "prix":10,
+            "promo": false
+        }
+        
+    ]
+}

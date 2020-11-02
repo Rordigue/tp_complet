@@ -9,3 +9,16 @@
 header .btn-info {
     margin-right: 8px;
 }
+
+.card-header p {
+    margin-left: 5px;
+    margin-bottom: 6px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+}
+footer p {
+    margin-bottom: 0;
+}

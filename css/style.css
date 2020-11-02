@@ -1,0 +1,11 @@
+.card {
+    width: 18rem;
+    margin: 5px;
+}
+.card img {
+    height: 150px;
+}
+
+header .btn-info {
+    margin-right: 8px;
+}

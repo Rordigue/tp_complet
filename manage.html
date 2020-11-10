@@ -57,81 +57,77 @@
               </nav>
         </header>
         <!-------------------- HEADER END---------------------->
-        <!-------------------- PROMO START---------------------->
-        <div class="container promo border border-dark">
-            <div class="promo-header container">
-                <h4>Craquez pour nos articles en promotion !</h4>
-            </div>
-            <div class="articles-promo container d-flex flex-wrap justify-content-center" id="articles-promo">
-            </div>
+        <!--AFFICHER LES ARTICLES-->
+        <div class="container">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nom</th>
+                <th scope="col">Prix</th>
+                <th scope="col">Quantité</th>
+              </tr>
+            </thead>
+            <tbody id="body_table">
+            </tbody>
+          </table>
         </div>
-        <!-------------------- PROMO END---------------------->
-        <!-------------------- ALL ARTICLES START ---------------------->
-        <div class="container-fluid border border-dark">
-            <div class="articles-header container">
-                <h4>Tout nos articles!</h4>
+        <!--AFFICHER LES ARTICLES-->
+        <!--FORMULAIRE AJOUTER ARTICLE-->
+        <div class="container">
+          <h4>Ajouter un article</h4>
+          <form method="POST">
+            <div class="form-group">
+              <label for="id_article">Id de l'article</label>
+              <input type="number" class="form-control" id="id_article">
             </div>
-            <div id="articles_container" class="d-flex flex-wrap justify-content-center">
+            <div class="form-group">
+              <label for="name_articles">Nom de l'article</label>
+              <input type="text" class="form-control" id="name_articles">
             </div>
-        </div>
-        <!-------------------- ALL ARTICLES END ---------------------->
-        <!-------------------- NOTICE START ---------------------->
-        <div class="container d-flex justify-content-center">
-          <div class="notices_container">
-            <div class="avis d-flex flex-wrap">
-              <div class="card">
-                <div class="card-header bg-transparent d-flex align-items-center">
-                  <i class="fas fa-user-alt h4" ></i>
-                  <p>Raphael Taddio</p>
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">J'aime regarder des voitures qui brulent...</h5>
-                  <p class="card-text">Quand je bois mon Yop, j'aime regarder des voitures qui brulent.</p>
-                </div>
-                <div class="card-footer bg-transparent">
-                  <i class="fas fa-star text-success"></i>
-                  <i class="fas fa-star text-success"></i>
-                  <i class="fas fa-star text-success"></i>
-                  <i class="fas fa-star text-success"></i>
-                  <i class="fas fa-star text-success"></i>
-                </div>
+            <div class="form-group">
+              <label for="unit_price">Prix</label>
+              <input type="number" class="form-control" id="unit_price">
+            </div>
+            <div class="form-group">
+              <label for="quantity">Quantité</label>
+              <input type="number" class="form-control" id="quantity">
+            </div>
+            <div class="form-group">
+              <label for="img_article">Lien vers l'image de l'article</label>
+              <input type="text" class="form-control" id="img_article">
+            </div>
+            <div class="form-group">
+              <label for="category">Catégorie</label>
+              <select class="form-control" id="category">
+                <option>fruit&legume</option>
+                <option>boissons</option>
+                <option>viandes</option>
+                <option>frais</option>
+                <option>cereales</option>
+              </select>
+            </div>
+            <div class="d-flex justify-content-space-around">
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="check_livraison">
+                <label class="form-check-label" for="check_livraison">Livraison</label>
               </div>
-              <div class="card">
-                <div class="card-header bg-transparent d-flex align-items-center">
-                  <i class="fas fa-user-alt h4" ></i>
-                  <p>Atom Musclé</p>
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Tu ne nous mérites pas</h5>
-                  <p class="card-text">T'as des goûts de merde, tu ne nous mérites pas.</p>
-                </div>
-                <div class="card-footer bg-transparent">
-                  <i class="fas fa-star text-success"></i>
-                  <i class="far fa-star text-success"></i>
-                  <i class="far fa-star text-success"></i>
-                  <i class="far fa-star text-success"></i>
-                  <i class="far fa-star text-success"></i>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header bg-transparent d-flex align-items-center">
-                  <i class="fas fa-user-alt h4" ></i>
-                  <p>Léo dans le rôle de Léo</p>
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Depuis que j'ai découvert le bumbo, je ne bois plus que ça.</h5>
-                  <p class="card-text">Avant j'étais alcoolique, je buvais n'importe quoi et je battais ma femme, mais depuis que j'ai découvert le bumbo, je ne bois plus que ça avant de la battre.</p>
-                </div>
-                <div class="card-footer bg-transparent">
-                  <i class="fas fa-star text-success"></i>
-                  <i class="fas fa-star text-success"></i>
-                  <i class="fas fa-star text-success"></i>
-                  <i class="far fa-star text-success"></i>
-                  <i class="far fa-star text-success"></i>
-                </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="check_promo">
+                <label class="form-check-label" for="check_promo">Promo</label>
               </div>
             </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
           </div>
+          <!--CONFIRMATION MESSAGES-->
+          <div class="container p-3 mb-2 bg-success text-center" id="message_confirmation">
+            <span class="text-light">Le produit a bien été ajouté !</span>
+          </div>
+          <div class="container p-3 mb-2 bg-danger text-center" id="message_error">
+            <span class="text-light">Une erreur est survenue, le produit n'a pas été ajouté !</span>
+          </div>
+          <!--CONFIRMATION MESSAGES-->
+          </form>
         </div>
         <footer class="text-muted  bg-dark">
           <div class="container">

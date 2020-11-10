@@ -22,3 +22,7 @@ footer {
 footer p {
     margin-bottom: 0;
 }
+
+form button {
+    margin-bottom: 5px;
+}

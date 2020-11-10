@@ -7,7 +7,6 @@
             "quantity":20,
             "livraison":true, 
             "categorie":"fruit&legume",
-            "sous-categorie": null,
             "prix":1,
             "promo": false
         },
@@ -18,7 +17,6 @@
             "quantity":20,
             "livraison":true,
             "categorie": "fruit&legume",
-            "sous-categorie": null,
             "prix":1,
             "promo": true
         },
@@ -29,7 +27,6 @@
             "quantity":15,
             "livraison":false,
             "categorie": "fruit&legume",
-            "sous-categorie": null,
             "prix":5,
             "promo": false
         },
@@ -40,7 +37,6 @@
             "quantity":10,
             "livraison":false,
             "categorie": "fruit&legume",
-            "sous-categorie": null,
             "prix":6,
             "promo": false
         },
@@ -51,7 +47,6 @@
             "quantity":50,
             "livraison":true,
             "categorie": "boissons",
-            "sous-categorie": "boissons alcoolisees",
             "prix":0.5,
             "promo": true
         },
@@ -62,7 +57,6 @@
             "quantity":12,
             "livraison":true,
             "categorie": "boissons",
-            "sous-categorie":"boissons alcoolisees",
             "prix":4,
             "promo": false
         },
@@ -73,7 +67,6 @@
             "quantity":20,
             "livraison":true,
             "categorie": "boissons",
-            "sous-categorie":"jus",
             "prix":10,
             "promo": false
         },
@@ -84,7 +77,6 @@
             "quantity":18,
             "livraison":false,
             "categorie": "boissons",
-            "sous-categorie":"jus",
             "prix":1,
             "promo": false
         },
@@ -95,7 +87,6 @@
             "quantity":13,
             "livraison":true,
             "categorie": "boissons",
-            "sous-categorie":"boissons energisantes",
             "prix":1,
             "promo": true
         },
@@ -106,7 +97,6 @@
             "quantity":40,
             "livraison":false,
             "categorie": "viandes",
-            "sous-categorie": null,
             "prix":12,
             "promo": false
         },
@@ -117,7 +107,6 @@
             "quantity":40,
             "livraison":false,
             "categorie": "viandes",
-            "sous-categorie": null,
             "prix":10,
             "promo": false
         },
@@ -128,7 +117,6 @@
             "quantity":12,
             "livraison":true,
             "categorie": "cereales",
-            "sous-categorie": null,
             "prix":1,
             "promo": false
         },
@@ -139,7 +127,6 @@
             "quantity":8,
             "livraison":true,
             "categorie": "cereales",
-            "sous-categorie": null,
             "prix":1,
             "promo": false
         },
@@ -150,7 +137,6 @@
             "quantity":5,
             "livraison":false,
             "categorie": "frais",
-            "sous-categorie": null,
             "prix":4,
             "promo": false
         },
@@ -161,7 +147,6 @@
             "quantity":6,
             "livraison":false,
             "categorie": "frais",
-            "sous-categorie": null,
             "prix":10,
             "promo": false
         }
